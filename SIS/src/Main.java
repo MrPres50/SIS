@@ -180,8 +180,7 @@ public class Main
 					sum = sum + 0.0;
 				}
 				average = sum/3;
-				DecimalFormat d = new DecimalFormat("#0.00");
-				studentList.get(i).setGPA(d.format(average));
+				studentList.get(i).setGPA(average);
 			}
 		}
 
